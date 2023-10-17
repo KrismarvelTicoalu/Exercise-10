@@ -1,5 +1,13 @@
+import Search from "../Search"
+import CardInfo from "../Card-info"
 function Home() {
-    return <h1>Home</h1>
+    return (
+      <div>
+        <h1>Home</h1>
+        <Search/>
+        <CardInfo/>
+      </div>
+    )
   }
   
   export default Home
