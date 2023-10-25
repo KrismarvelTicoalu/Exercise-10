@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import Search from "../Search"
 import CardInfo from "../Card-info"
-function Home() {
+function Home(props) {
     return (
       <div>
-        <h1>Home</h1>
+        <h1>{props.title}</h1>
         <Search/>
         <CardInfo/>
       </div>
