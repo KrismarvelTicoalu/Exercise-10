@@ -6,9 +6,9 @@ import Footer
 function App() {
   return (
     <div>
-      <Header />
-      <Home />
-      <Footer />
+      <Header title="Header"/>
+      <Home title="Home"/>
+      <Footer title="Footer"/>
     </div>
   )
   
