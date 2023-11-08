@@ -1,5 +1,6 @@
-function Logo() {
-    return <h1>Logo</h1>
+/* eslint-disable react/prop-types */
+function Logo(props) {
+    return <h1>{props.title}</h1>
   }
   
   export default Logo

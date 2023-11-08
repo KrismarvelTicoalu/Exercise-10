@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import Evolution from "../Evolution"
 import TypeEffect from "../Type-Effect"
 import Logo_CardInfo from "../Logo(Card-Info)"
-function CardInfo() {
+function CardInfo(props) {
     return (
        <div>
-      <h1>Card-Info</h1>
+      <h1>{props.title}</h1>
       <Evolution/>
       <TypeEffect/>
       <Logo_CardInfo/>
