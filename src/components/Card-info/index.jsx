@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import Evolution from "../Evolution"
 import TypeEffect from "../Type-Effect"
 import Logo_CardInfo from "../Logo(Card-Info)"
