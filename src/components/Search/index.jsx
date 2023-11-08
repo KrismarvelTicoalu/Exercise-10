@@ -1,5 +1,5 @@
-function Search() {
-    return <h1>Search</h1>
+function Search(props) {
+    return <h1>{props.title}</h1>
   }
   
   export default Search
