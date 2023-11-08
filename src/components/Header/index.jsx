@@ -6,7 +6,7 @@ function Header(props) {
     
     <div>
       <h1>{props.title}</h1>
-      <Logo/>
+      <Logo title="Logo"/>
       <Generations/>
     </div>
     
